@@ -1,7 +1,7 @@
 package ke.ac.egerton.quality.component;
 
 
-import ke.ac.egerton.quality.entity.Evaluate;
+import ke.ac.egerton.quality.model.Evaluate;
 import org.springframework.stereotype.Component;
 
 import java.text.DecimalFormat;

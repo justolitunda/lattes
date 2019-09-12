@@ -1,8 +1,8 @@
 package ke.ac.egerton.quality.controller;
 
-import ke.ac.egerton.quality.EvaluationRepository;
+import ke.ac.egerton.quality.Repository.EvaluationRepository;
 import ke.ac.egerton.quality.component.EvaluatinComputationComponent;
-import ke.ac.egerton.quality.entity.Evaluate;
+import ke.ac.egerton.quality.model.Evaluate;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -10,8 +10,6 @@ import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.servlet.ModelAndView;
-
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
